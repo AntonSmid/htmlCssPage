@@ -1,0 +1,125 @@
+body {
+    color: #222;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  /* === Navigation === */
+
+  #nav {
+    float: right;
+    margin-top: 6px;
+    _width: 600px;
+  }
+
+  #nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #nav li {
+    float: left;
+    padding: 10px 10px;
+    background-color: #222;
+  }
+
+  #nav li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #aaa;
+  }  
+  
+  #nav li a.active {
+    border-bottom: 3px solid;
+    color: #fff;
+  }
+
+  #nav li a:hover {
+    color: #fff;
+  }
+  
+  .clear {
+    clear: both;
+  }
+
+  /* -------mast --------- */
+
+  #mast {
+    width: 100%;
+    background-color: #222; /* color of navbar background*/
+    height: auto;
+    position: fixed;
+  }
+
+  /* === Container === */
+  .container {
+    max-width: 1040px;
+    border: 1px solid #222;
+    margin: 0 auto;
+  }
+
+
+  /* === Sections === */
+  .section {
+    border: 1px solid #222;
+    min-height: 500px;
+    background-color: #fff;
+  }
+  
+  #section1 .wrap {
+    margin-top: 80px;
+  }
+  
+  
+
+  #section1 {
+    background: url("https://placeimg.com/1200/800/tech");
+    background-size: cover;
+  }
+
+
+  #section3 {
+    background: url("https://placeimg.com/1200/800/nature");
+    background-size: cover;
+  }
+
+
+  #section5 {
+    background: url("https://placeimg.com/1200/800/natur");
+    background-size: cover;
+  }
+
+  .wrap {
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px auto;
+    width: 70%;
+  }
+
+  /* ---=== FOOTER ===--- */
+  #footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .col-1 {
+    width: 66%;
+    display: inline-block;
+  }
+  
+  .col-2 {
+    width: 33%;
+    display: inline-block;
+  }
+  
+  
+  
+  
