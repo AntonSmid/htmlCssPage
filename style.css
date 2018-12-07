@@ -8,10 +8,15 @@ body {
     line-height: 1.5;
   }
 
+img {
+  float: left;
+  padding: 20px;
+}
+
   /* === Navigation === */
 
   #nav {
-    float: right;
+    _float: right;
     margin-top: 6px;
     _width: 600px;
   }
@@ -20,6 +25,7 @@ body {
     list-style: none;
     display: block;
     margin: 0 auto;
+    _padding-right: 100px;
   }
 
   #nav li {
